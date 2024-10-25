@@ -15,5 +15,5 @@
 - Что бы отфильтровать заказы по району и по времени нужно использовать методы `GET/api/FilteredOrder/FilterByParams` и `POST/api/FilteredOrder/FilterByFile`.
 - Полученный `Guid` сохраняется в таблицу и создаются дополнительные сущности в вспомогательной таблице связанные с `Orders`.
 - Что бы получить отфильтрованные заказы нужно вызвать метод `GET/api/FilteredOrder/{id}`.
-- файл filterFile.json служит приметом для загрузки в метод `POST/api/FilteredOrder/FilterByFile`.
+- файл filterFile.json служит примером для загрузки в метод `POST/api/FilteredOrder/FilterByFile`.
 - Логирование записывается в консоли и файле `/logs/log-*.txt`.
