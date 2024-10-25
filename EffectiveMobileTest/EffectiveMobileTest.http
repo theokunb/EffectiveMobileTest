@@ -1,0 +1,6 @@
+@EffectiveMobileTest_HostAddress = http://localhost:5186
+
+GET {{EffectiveMobileTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
